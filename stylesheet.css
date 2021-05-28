@@ -1,0 +1,40 @@
+		button{
+			display: block;
+			background: red;
+			color: white;
+			margin:20px auto;
+			text-align: center;
+		}
+		.wrapper{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,0.5);
+			display: none;
+			
+		}
+		.popup{
+			position: relative;
+			font-family: arial;
+			text-align:center;
+			background: mistyrose;
+			max-width: 300px;
+			margin: 50px auto;
+			border: 1px dotted goldenrod;
+			padding: 5px;
+		}
+
+		.popup .popup-close{
+			box-sizing: border-box;
+			position: absolute;
+			top: 5px;
+			right: 5px;
+			background: goldenrod;
+			padding:5px;
+			cursor:pointer;
+			border-radius: 10px;
+			font-size: 50%;
+		}
+		
